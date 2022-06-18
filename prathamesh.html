@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <!-- <title>Responsive Sidebar Menu</title> -->
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body style="filter:blur(100px) ;">
+    <!-- <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label> -->
+
+
+    <div class="logo">
+       
+        <div class="header" id="myHeader">
+            <div class="bar">
+            <input type="checkbox" id="check">
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <div class="sidebar">
+              <header>Hot Menu</header>
+              <a href="home.html" class="active">
+                <i class="fas fa-qrcode"></i>
+                <span>Dashboard</span>
+              </a>
+              <a href="notes.html">
+                <i class="fas fa-link"></i>
+                <span>Notes</span>
+              </a>
+              <a href="question_bank.html">
+                <i class="fas fa-stream"></i>
+                <span>Question Bank</span>
+              </a>
+              <a href="#">
+                 <i class="fas fa-calendar"></i>
+                <span>Videos</span>
+              </a>
+<!--               <a href="#">
+                <i class="far fa-question-circle"></i>
+                <span>About</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-sliders-h"></i>
+                <span>Services</span>
+              </a>
+              <a href="#">
+                <i class="far fa-envelope"></i>
+                <span>Contact</span>
+              </a> -->
+            </div>
+        </div>
+        <p style="color:white; font-size:30px;text-align: center; padding: 4px;"><b><span style="color:red ;">X</span>VIDEOS</b></p>
+            <!-- <image  xlink:href="https://static-l3.xvideos-cdn.com/v3/img/skins/default/xvideos.com.svg"
+                src="https://static-l3.xvideos-cdn.com/v3/img/skins/default/xvideos.com.png" title="XVideos Home"
+                height="36" width="144" class="no-blur" id="site-logo"></image> -->
+                
+        </div>
+        
+        </div>
+
+     <div class="profile">
+        <div class="verify" style="font-size: 11px; font-style: oblique; vertical-align: middle;">
+            <p><b>Verified Profile</b> </p><img src="https://img.icons8.com/stickers/100/000000/id-verified.png"
+                height="12px" width="12px" />
+        </div><br>
+       
+        <div class="flex">
+            <div>
+                <img class="profile-dp" src="https://i.ibb.co/gy6hSb0/Whats-App-Image-2022-05-07-at-10-29-59-PM.jpg" alt="" srcset="">
+                <p
+                    style="padding: 2px; font-size: 15px; text-align: center; margin-top: 2px; font-style: oblique; color: rgba(200, 201, 198, 0.961);">
+                    15 M<br>Followers</p>
+            </div>
+            <div>
+                <p style="color: grey; margin-bottom: 5px;">Bio</p>
+                <p style="color:rgb(221, 12, 12);font-size: 20px;font-style: italic; padding-bottom: 3px;"> Proffesor
+                </p>
+                <p style="padding: 1spx; font-size: 16px;"><b>Tanmay Kuche<img class="verified"
+                            src="https://img.icons8.com/color/48/000000/verified-badge.png" /></b></p>
+                <p>Fantasy-Squirts</p>
+                <p>Age-18</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <p style="padding: 8px; font-size: 18px;font-style: oblique; color: rgb(215, 215, 228);"># Vinchu's
+            Favourites.....</p>
+        <div class="videos">
+            <div>
+                <p class="starname">#1 Lim Ji-yeon</p>
+                <iframe class="iframe" width="640" height="348" src="https://videocelebs.net/embed/45840" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+            <div>
+                <p class="starname">#2 Daniella Wang</p>
+                <iframe class="iframe" width="640" height="360" src="https://videocelebs.net/embed/80751" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+            <div>
+                <p class="starname">#3 Olivia Grace Applegate</p>
+                <iframe class="iframe" width="684" height="360" src="https://videocelebs.net/embed/80903" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+            <div>
+                <p class="starname">#4 Aimee Lou Wood</p>
+                <iframe class="iframe" width="720" height="360" src="https://videocelebs.net/embed/71455" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+            <div>
+                <p class="starname">#5 Maite Perroni</p>
+                <iframe class="iframe" width="640" height="360" src="https://videocelebs.net/embed/75818" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+         window.onload=run();
+        function run(){
+            let key="xyz";
+        let password=prompt("Enter Password");
+        if(password==key){
+           const remove= document.body;
+           remove.removeAttribute('style');
+
+        }
+        }
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+
+
+</html>

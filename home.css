@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+/* margin: 0; */
+/* font-family: Arial, Helvetica, sans-serif; */
+background-color: black;
+}
+
+.top-container {
+background-color: #f1f1f1;
+padding: 30px;
+text-align: center;
+}
+
+.header {
+
+/* padding: 5px; */
+background: rgb(21, 21, 21);
+color: #f1f1f1;
+align-items: center;
+border-width: 0px;
+        border-bottom: 1px;
+        border-style: solid;
+        border-color:#444;
+}
+
+/* .content {
+z-index: -1;
+}  */
+
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.sticky + .content {
+padding-top: 102px;
+}
+
+.title{
+        text-align: center;
+        height: fit-content;
+        width: 100vw;
+        background-color: #2e2e2e;
+        color: white;
+        
+        /* position:relative; */
+         justify-content: center;
+         /* padding: 4px; */
+         border-width: 0px;
+        border-bottom: 1px;
+        border-style: solid;
+        border-color:#444;
+         /* margin-top: 50px; */
+       z-index: -1;
+      
+    }
+    /* .logo{
+      
+      
+    } */
+    .yadnesh{
+      margin: 10px;
+      padding: 30px;
+      padding-left: 45px;
+      padding-right: 45px;
+      border: solid;
+      border-radius: 2px;
+      border-color: rgb(25, 27, 34);
+      background-color: rgba(27, 26, 26, 0.737);
+      
+    }
+    .flex{
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      column-gap: 25px;
+      row-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .profile{
+      color: white;
+      text-align: center;
+      /* display: inline; */
+      padding: 3px;
+      margin: 5px;
+     /* justify-content: center; */
+      font-size: 17px;
+     
+           }
+    .profile-dp{
+      height: 70vw;
+      width: 50vw;
+      /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.137), 0 6px 20px 0 rgba(0, 0, 0, 0.279); */
+      
+    }
+    .verified{
+      height: 20px;
+      width: 20px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .hr{
+      margin: 8px;
+    }
+    .audio{
+      display: none;
+    }
+.bar{
+    float: left;
+}
+
+    

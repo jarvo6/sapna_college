@@ -1,0 +1,38 @@
+
+.section-name{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    display: block;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 13PX;
+    column-gap: 13px;
+    justify-content: center;
+}
+.pdf{
+    height:fit-content;
+    width:fit-content;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.poster{
+    height: 130px;
+    width: 100px;
+    /* padding: 3px; */
+}
+.caption{
+    color: red;
+    text-align: center;
+    justify-content: center;
+    
+    padding-bottom: 10px;
+}
+.bgcolor{
+    background-color: rgb(28, 25, 25);
+}
