@@ -160,6 +160,14 @@
 </div>
 
     <script>
+          window.onload= function() { preloader()};
+        function preloader() {
+            setTimeout(() => {
+                document.getElementById("preload").style.display="none";
+            document.getElementById("none").style.display="contents";
+}, "3000")
+            
+        }
         window.onscroll = function () { myFunction() };
 
         var header = document.getElementById("myHeader");
