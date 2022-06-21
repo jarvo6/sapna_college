@@ -10,45 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <style>
-         <style>
-        .center{
-            display: flex;
-            justify-content: center;
-        }
-        .image{
-            height: 500px;
-            width: 300px;          
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-   
-        }
-        #black{
-            height: 100vh;
-            width: 100vw;
-            z-index: -1;
-        }
-        #none{
-            display: none;
-        }
-        #preload{
-            display: contents;
-        }
-    </style>
+        
     </style>
 </head>
 
 <body>
-    <div id="preload">
-    <!-- <div>  <img  id="black" src="https://wallpaperaccess.com/full/38119.jpg"></div> -->
-    <div class="center">
-      <div><img class="image" src="https://s8.gifyu.com/images/ezgif.com-gif-maker09608b369c0a8267.gif">
-      </div>
-    </div>
-</div>
+  
     <!-- <input type="checkbox" id="check">
     <label for="check">
       <i class="fas fa-bars" id="btn"></i>
@@ -160,14 +127,7 @@
 </div>
 
     <script>
-          window.onload= function() { preloader()};
-        function preloader() {
-            setTimeout(() => {
-                document.getElementById("preload").style.display="none";
-            document.getElementById("none").style.display="contents";
-}, "3000")
-            
-        }
+  
         window.onscroll = function () { myFunction() };
 
         var header = document.getElementById("myHeader");
